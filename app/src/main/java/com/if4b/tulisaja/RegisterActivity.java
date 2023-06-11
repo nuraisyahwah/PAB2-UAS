@@ -1,18 +1,13 @@
-//08
 package com.if4b.tulisaja;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextPaint;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
-
-import com.if4b.tulisaja.databinding.ActivityRegisterBinding;
-
-import retrofit2.Call; //retrofit call
+import androidx.appcompat.app.AppCompatActivity;
+import com.example.absensi.databinding.ActivityRegisterBinding;
+import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
