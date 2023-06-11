@@ -1,5 +1,4 @@
-package com.example.absensi;
-
+package com.if4b.tulisaja;
 
 import com.google.gson.annotations.SerializedName;
 

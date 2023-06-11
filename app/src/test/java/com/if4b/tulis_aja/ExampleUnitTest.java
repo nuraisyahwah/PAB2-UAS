@@ -1,4 +1,4 @@
-package com.example.absensi;
+package com.if4b.tulisaja;
 
 import org.junit.Test;
 

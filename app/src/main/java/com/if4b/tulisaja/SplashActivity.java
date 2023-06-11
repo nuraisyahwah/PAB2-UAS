@@ -1,4 +1,4 @@
-package com.example.absensi;
+package com.if4b.tulisaja;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 
-import com.example.absensi.databinding.ActivitySplashBinding;
+import com.if4b.tulisaja.databinding.ActivitySplashBinding;
 
 public class SplashActivity extends AppCompatActivity {
     private ActivitySplashBinding binding;
@@ -15,9 +15,9 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        binding = ActivitySplashBinding.inflate(getLayoutInflater());
+        binding =ActivitySplashBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        getSupportActionBar().hide();
 
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
@@ -27,5 +27,7 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         },1000);
+
+
     }
 }
